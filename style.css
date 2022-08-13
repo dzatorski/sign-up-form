@@ -1,0 +1,137 @@
+html,
+body {
+  min-height: 100%;
+  font-family: "DM Sans", sans-serif;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.left-side {
+  display: flex;
+  width: 30%;
+  min-height: 100vh;
+  background: black;
+  background-image: url(./fantasy3.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.right-side {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+}
+.welcome-container {
+  height: 30%;
+  padding-top: 13%;
+}
+.welcome-1 {
+  font-size: 2rem;
+  width: 70%;
+  font-weight: bold;
+}
+.welcome-2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 3%;
+}
+input {
+  display: flex;
+  flex-direction: column-reverse;
+  border: 1px solid #e5e7eb;
+  border-radius: 2px;
+  height: 20px;
+  width: 200px;
+}
+input:focus {
+  outline: 0;
+  border-color: #6658d3;
+  box-shadow: 1px solid;
+}
+input:invalid {
+  border: 1px solid red;
+}
+label:focus {
+  color: #6658d3;
+}
+label {
+  color: gray;
+  font-weight: bold;
+}
+
+.form-container {
+  display: flex;
+  gap: 5%;
+  margin-top: 2%;
+}
+
+.form,
+.form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.message {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.odin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+.odin-logo {
+  height: 200px;
+  width: 140px;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.odin-text {
+  font-size: 50px;
+  color: white;
+}
+.copyright-container {
+  width: 100%;
+  height: 50%;
+}
+.odin-content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+}
+.sign-up-container {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+.sign-up-button {
+  border-radius: 5px;
+  height: 40px;
+  width: 160px;
+  background-color: #596d48;
+  border: none;
+  color: white;
+}
+.sign-up-button:active {
+  opacity: 80%;
+}
