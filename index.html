@@ -35,12 +35,12 @@
           </form>
 
           <form action="example.com/path" method="post">
-            <label for="user_email">E-mail:</label>
-            <input type="email" id="user_email" />
+            <label for="user_email">E-mail:*</label>
+            <input type="email" id="user_email" required />
           </form>
           <form action="example.com/path" method="post">
-            <label for="password">Password:</label>
-            <input type="password" id="password" />
+            <label for="password">Password:*</label>
+            <input type="password" id="password" required />
           </form>
         </div>
         <div class="form1">
@@ -54,14 +54,19 @@
           </form>
 
           <form action="example.com/path" method="post">
-            <label for="confirm_password">Confirm password</label>
-            <input type="password" id="confirm_password" />
+            <label for="confirm_password">Confirm password:*</label>
+            <input
+              type="password"
+              minlength="3"
+              id="confirm_password"
+              required
+            />
           </form>
         </div>
       </div>
       <div class="sign-up-container">
-        <button class="sign-up-button">Create Account</button>
-        Already have an account? <link href="ppe.pl" />
+        <button type="sumbit" class="sign-up-button">Create Account</button>
+        Already have an account? <a href>Log in</a>
       </div>
     </div>
   </body>

@@ -60,9 +60,7 @@ input:focus {
   border-color: #6658d3;
   box-shadow: 1px solid;
 }
-input:invalid {
-  border: 1px solid red;
-}
+
 label:focus {
   color: #6658d3;
 }
